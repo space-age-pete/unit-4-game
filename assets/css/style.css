@@ -1,0 +1,104 @@
+#go {
+    width : 100px;
+    height : 100px;
+    background-color : green;
+}
+
+body {
+    background-color: black;
+    background-image: url("https://www.ssbwiki.com/images/9/98/Finaldestination.jpg");
+    /* background-image: url("../images/finalD.png"); */
+    /* background-size: cover; */
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+#characterSelect {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.selectBox {
+    width: 75px;
+    height: 75px;
+    margin: 5px;
+}
+
+.selectBox:hover {
+    cursor: pointer;
+}
+
+/* button:hover {
+    cursor: pointer;
+} */
+
+#foxbox {
+    background-color: orange;
+    /* background-image: url("assets/images/foxicon.png"); */
+}
+
+#falcobox {
+    color: white;
+    background-color: blue;
+}
+
+#docbox {
+    background-color: white;
+}
+
+#linkbox {
+    background-color: green;
+}
+
+#buffer {
+    height: 220px;
+}
+
+#docpic{
+    size:100%;
+}
+
+button {
+    margin: auto;
+    margin-top: 20px;
+}
+
+#messageBox{
+    background-color: white;
+    /* height:100px; */
+    width:200px;
+    margin-top:75px;
+    padding: 15px;
+}
+
+#midCol {
+    font-size: 48pt;
+    color: white;
+    text-align: center;
+}
+
+.icon {
+    width: 100%;
+    height: 100%;
+}
+
+#leftCol {
+    height: 187px;
+    width: 187px;
+    /* background-image: url("../images/falcoplayer.png");
+    background-size: cover; */
+    color: white;
+}
+
+#rightCol {
+    height: 187px;
+    width: 187px;
+    color: white;
+}
+
+#flexrow {
+    display: flex;
+    justify-content: space-evenly;
+}

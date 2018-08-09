@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
+
+</head>
+
+<body>
+    <div id="characterSelect">
+        <div class="selectBox" id="foxbox">
+            <img src="assets/images/foxicon.png" class="icon" alt="fox">
+        </div>
+        <div class="selectBox" id="falcobox">
+            <img src="assets/images/falcoicon.png" class="icon" alt="falco">
+        </div>
+        <div class="selectBox" id="docbox">
+            <img src="assets/images/docicon.png" class="icon" alt="doc">
+        </div>
+
+        <div class="selectBox" id="linkbox">
+            <img src="assets/images/linkicon.png" class="icon" alt="link">
+        </div>
+    </div>
+
+
+
+    <div class="container">
+
+        <div class="row" id="buffer">
+            <button>FIGHT</button>
+        </div>
+        <div id="flexrow">
+            <!-- <div class="col-sm-2" id="leftCol">
+                <p id="leftName"></p>
+                <p id="leftHP"></p>
+            </div>
+            <div class="col-sm-8" id="midCol">
+
+            </div>
+            <div class="col-sm-2" id="rightCol">
+                <p id="rightName"></p>
+                <p id="rightHP"></p>
+            </div> -->
+            <div id="leftCol">
+                <p id="leftName"></p>
+                <p id="leftHP"></p>
+            </div>
+            <div id="midCol">
+
+            </div>
+            <div id="rightCol">
+                <p id="rightName"></p>
+                <p id="rightHP"></p>
+            </div>
+        </div>
+    </div>
+    <div id="messageBox">
+        Choose your character!
+    </div>
+
+    <script src='https://code.jquery.com/jquery-3.3.1.min.js' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8='
+        crossorigin='anonymous'></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
